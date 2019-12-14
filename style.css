@@ -1,0 +1,73 @@
+body{
+	background-color: #ec4242;
+}
+#options{
+    height: 50px;
+}
+span.option_btn{
+	background-color: white;
+	color: red;
+	padding: 10px 25px;
+	margin: 15px 0px;
+	font-size: 18pt;
+	font-family: calibri;
+	border-radius: 9px;
+	
+}
+
+.timer_btn:hover{
+	background-color: #e67979;
+	border-radius: 30px;
+	border:solid 5px darkred;
+}
+
+.timer_btn{
+	margin: 10px;
+	border-radius: 50px;
+	border:solid 5px #ec4242;
+}
+.timer_btn:active{
+	background-color:#ec4242;
+	border-radius: 30px;
+	border:solid 5px darkred;
+}
+
+
+/*
+#start{
+	margin: 10px;
+	border-radius: 50px;
+	border:solid 5px #ec4242;
+	 box-sizing: border-box;
+  background: url(start128yellow.png) no-repeat;
+}
+
+#start:hover{
+	background-color: #e67979;
+	border-radius: 30px;
+	border:solid 5px darkred;
+}
+
+#start:active{
+	background-color:#CDDC39;
+	border-radius: 30px;
+	border:solid 5px darkred;
+	 box-sizing: border-box;
+  background: url(start128yellow.png) no-repeat;
+}
+*/
+#time{
+color: #ffffe0;
+font-family: calibri;
+
+}
+
+#title{
+color: #ffffe0;
+font-family: calibri;	
+font-size: 50px;
+}
+
+button {
+margin: 10px
+}

@@ -1,0 +1,22 @@
+<html>
+	<head> 
+		<link rel = "stylesheet" href = "style.css">
+	</head>
+	
+	<body style = "text-align: center;">
+		<h1 id = "title">Pomodoro Timer</h1>
+		<div id = "options">
+			<span class = "option_btn" id = "op_1">Pomodoro</span> <span class = "option_btn" id = "op_2">Break</span> <span class = "option_btn" id = "op_3">Custom Timer</span>
+		</div>
+		<div>
+		<img src="pomodoro.png" width="300" >
+		</div>
+		<br>
+		<div id="time" style = "font-size: 100; border:double 3px;">25:00 </div>
+		<img class = "timer_btn" id = "reset" src = "reset128.png" onclick = "javascript: reset_timer()">
+		<img class = "timer_btn" id = "start" src = "start128.png" onclick = "javascript: start_timer()">
+		<img class = "timer_btn" id = "stop" src = "stop128.png" onclick = "javascript: stop_timer()">
+		<audio id = "sound" src = "radartimer.mp3" loop>
+		<script type = "application/javascript" src = "script.js"></script>
+	</body>
+</html>
